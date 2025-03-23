@@ -1,0 +1,138 @@
+html {
+    background-color: rgb(250, 225, 247);
+}
+
+.omelette {
+    text-align: center;
+}
+
+#id-5 {
+    margin-top: 5.5%;
+    border-radius: 12px;
+    margin-bottom: 0.5%;
+}
+
+body {
+    border-radius: 25px;
+    margin-bottom: 150px;
+    margin-top: 150px;
+    margin-left: 470px;
+    margin-right: 470px;
+    background-color: white;
+}
+
+.firstDiv>h1 {
+    margin-left: 40px;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.firstDiv p {
+    margin-left: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 40px;
+}
+
+.time {
+    background-color: rgb(254, 244, 252);
+    padding: 1%;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+}
+
+.time>h3 {
+    margin-left: 10px;
+    color: rgb(146, 54, 99);
+}
+
+ul {
+    li::marker {
+        color: rgb(146, 54, 99);
+    }
+}
+
+li {
+    padding-left: 15px;
+}
+
+.ingredients>h1 {
+    margin-left: 40px;
+    color: maroon;
+}
+
+.ingredients {
+    ul {
+        margin-left: 25px;
+        li::marker {
+            color: maroon;
+        }
+    }
+}
+
+.instructions>h1 {
+    margin-left: 40px;
+    color: maroon;
+}
+
+.instructions {
+    ol {
+        margin-left: 23px;
+        li::marker {
+            color: maroon;
+        }
+    }
+}
+
+.nutrition>h1 {
+    margin-left: 40px;
+    color: maroon;
+}
+
+.nutrition p {
+    margin-left: 40px;
+}
+
+.nutrition {
+    margin-bottom: 50px;
+}
+
+td {
+    margin-left: 50px;
+    text-align: left;
+    padding-left: 60px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+}
+
+#first,
+#second,
+#third,
+#fourth {
+    color: maroon;
+    font-size: large;
+}
+
+hr {
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+tr {
+    border-bottom: 2px solid #ddd;
+}
+
+tr:last-child {
+    border-bottom: none;
+}
+
+td {
+    padding: 12px 20px;
+    text-align: left;
+}
